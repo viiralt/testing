@@ -3,11 +3,13 @@ import React from 'react';
 import { Wrapper, Text } from './elements';
 
 import CommentBox from './components/CommentBox';
+import CommentList from './components/CommentList';
 
 const App = () => (
-  <div>
+  <Wrapper>
     <CommentBox />
-  </div>
+    <CommentList />
+  </Wrapper>
 );
 
 export default App;
